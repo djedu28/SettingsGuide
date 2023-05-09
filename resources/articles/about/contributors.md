@@ -24,3 +24,4 @@ Translations
 ![Laurent Lalliard - French](../images/contributors/5axes.png)
 ![Vb138 - Czech](../images/contributors/Vb138.png)
 ![SekIsBack - German](../images/contributors/Sekisback.jpg)
+![DjEdu28 - Portuguese](../images/contributors/DjEdu28.jpg)
