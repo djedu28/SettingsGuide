@@ -1,6 +1,6 @@
-Initial Layer Line Width
+Largura da linha da camada inicial
 ====
-This makes the lines in the initial layer wider or thinner by a certain ratio.
+Isso torna as linhas na camada inicial mais largas ou mais finas em uma determinada proporção.
 
 <!--screenshot {
 "image_path": "initial_layer_line_width_factor.png",
@@ -12,8 +12,8 @@ This makes the lines in the initial layer wider or thinner by a certain ratio.
 },
 "colours": 32
 }-->
-![The lines in the initial layer are twice as wide as the rest](../images/initial_layer_line_width_factor.png)
+![As linhas na camada inicial são duas vezes mais largas que as demais](../images/initial_layer_line_width_factor.png)
 
-The goal of this setting is to improve adhesion to the build plate. In order to print wider lines, the nozzle has to extrude more material and that material has to flow wider outward. This causes the nozzle to press the material harder on the build plate, which increases adhesion between the filament and the build plate.
-* Not only will the lines be wider or thinner, but they will also be farther apart or closer together by the same factor, so it would not produce overextrusion or underextrusion.
-* This setting affects all line widths; skin, walls, adhesion, support, the prime tower, and so on. They will be made wider or thinner by the same ratio.
+O objetivo dessa configuração é melhorar a adesão à placa de construção. Para imprimir linhas mais largas, o bocal precisa extrudar mais material e esse material precisa fluir mais para fora. Isso faz com que o bocal pressione o material com mais força na placa de impressão, o que aumenta a aderência entre o filamento e a placa de impressão.
+* As linhas não serão apenas mais largas ou mais finas, mas também serão mais distantes ou mais próximas pelo mesmo fator, de modo que isso não produziria superextrusão ou subextrusão.
+* Essa configuração afeta todas as larguras de linha: pele, paredes, adesão, suporte, a torre principal e assim por diante. Elas se tornarão mais largas ou mais finas na mesma proporção.

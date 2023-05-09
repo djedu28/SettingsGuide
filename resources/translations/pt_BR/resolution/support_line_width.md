@@ -1,6 +1,6 @@
-Support Line Width
+Largura da linha de suporte
 ====
-The width of the lines with which the support is drawn can be different from the line width of the rest of the print.
+A largura das linhas com as quais o suporte é desenhado pode ser diferente da largura da linha do restante da impressão.
 
 <!--screenshot {
 "image_path": "support_line_width.png",
@@ -18,6 +18,6 @@ The width of the lines with which the support is drawn can be different from the
 "layer": 350,
 "colours": 128
 }-->
-![The lines of support are wider than the rest of the lines](../images/support_line_width.png)
+![As linhas de suporte são mais largas do que o restante das linhas](../images/support_line_width.png)
 
-The support generally doesn't need to be printed accurately, so it can be printed with a greater line width to save some time, without compromising the strength of the support. However, to achieve the same density for the support, the lines will be spaced further apart. This reduces the quality of the overhanging surfaces of your print.
+O suporte geralmente não precisa ser impresso com precisão, portanto, pode ser impresso com uma largura de linha maior para economizar tempo, sem comprometer a resistência do suporte. No entanto, para obter a mesma densidade para o suporte, as linhas serão mais espaçadas. Isso reduz a qualidade das superfícies salientes de sua impressão.

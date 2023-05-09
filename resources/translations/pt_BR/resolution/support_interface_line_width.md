@@ -1,6 +1,6 @@
-Support Interface Line Width
+Largura da linha da interface de suporte
 ====
-The widths of the lines of support interface can be configured separately from the widths of the rest of the support lines.
+As larguras das linhas da interface de suporte podem ser configuradas separadamente das larguras do restante das linhas de suporte.
 
 <!--screenshot {
 "image_path": "support_roof_line_width.png",
@@ -19,10 +19,10 @@ The widths of the lines of support interface can be configured separately from t
 "layer": 192,
 "colours": 64
 }-->
-![The support interface lines are wider than the rest of the support lines](../images/support_roof_line_width.png)
+![As linhas da interface de suporte são mais largas do que o restante das linhas de suporte](../images/support_roof_line_width.png)
 
-Printing the support interface with slightly thinner lines is often advantageous for the quality of the overhanging surface that it supports, purely through having a smoother top surface above the support interface. Yet it doesn't necessarily increase the adhesion between the support interface and the model, so the support will not necessarily be harder to remove.
+Imprimir a interface de suporte com linhas um pouco mais finas geralmente é vantajoso para a qualidade da superfície suspensa que ela suporta, puramente por ter uma superfície superior mais lisa acima da interface de suporte. No entanto, isso não aumenta necessariamente a adesão entre a interface de suporte e o modelo, de modo que o suporte não será necessariamente mais difícil de remover.
 
-Similarly, the support floor will stick more evenly, reducing the scarring where the support was resting on the model without making support any weaker.
+Da mesma forma, a base do suporte aderirá mais uniformemente, reduzindo as cicatrizes onde o suporte estava apoiado no modelo sem tornar o suporte mais fraco.
 
-However, printing the interface lines too thin will cause uneven extrusion, which reduces the supporting effect of the interface, causing a worse overhang quality and less stable support. It may also introduce a great change in the flow rate through the nozzle, causing overextrusion when it starts printing support interface and underextrusion when printing whatever comes after the support interface.
+No entanto, imprimir as linhas de interface muito finas causará extrusão irregular, o que reduz o efeito de suporte da interface, causando uma pior qualidade de saliência e um suporte menos estável. Isso também pode introduzir uma grande mudança na taxa de fluxo através do bocal, causando superextrusão quando começar a imprimir a interface de suporte e subextrusão ao imprimir o que vier depois da interface de suporte.

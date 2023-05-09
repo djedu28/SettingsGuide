@@ -1,6 +1,6 @@
-Layer Height
+Altura da camada
 ====
-The 3D printer puts down plastic in layers. The layer height is the thickness of these layers in millimetres. It is the most important factor in both the visual quality of your final print and the printing time.
+A impressora 3D coloca o plástico em camadas. A altura da camada é a espessura dessas camadas em milímetros. É o fator mais importante na qualidade visual de sua impressão final e no tempo de impressão.
 
 <!--screenshot {
 "image_path": "layer_height_0.1.png",
@@ -16,23 +16,23 @@ The 3D printer puts down plastic in layers. The layer height is the thickness of
 "settings": {"layer_height": 0.3},
 "colours": 32
 }-->
-![0.1mm layer height](../images/layer_height_0.1.png)
-![0.3mm layer height](../images/layer_height_0.3.png)
+![0,1 mm de altura da camada](../images/layer_height_0.1.png)
+![0,3 mm de altura da camada](../images/layer_height_0.3.png)
 
-Layer height is the single most important setting to affect the overall quality and conversely the printing time. These are just some of the effects:
-* Having thinner layers will increase the visual quality of the print. Since the layers are thinner, the stair stepping effect at the layer's borders will be reduced. Also, the layers will be closer together and so the creases in between the layers will be smaller, leading to an overall smoother finish.
-* Having thinner layers allows the printer to produce more detail on the top and bottom sides of your print.
-* Having thicker layers tends to make the print stronger, to a point. There will be fewer borders between the layers, which tend to be a weak point. The thicker layers will not shear as much.
-* Having thicker layers will reduce printing time, because the nozzle will not have to make as many horizontal movements.
+A altura da camada é a configuração mais importante para afetar a qualidade geral e, inversamente, o tempo de impressão. Estes são apenas alguns dos efeitos:
+* Ter camadas mais finas aumentará a qualidade visual da impressão. Como as camadas são mais finas, o efeito de degrau de escada nas bordas da camada será reduzido. Além disso, as camadas ficarão mais próximas umas das outras e, portanto, os vincos entre as camadas serão menores, o que resultará em um acabamento geral mais suave.
+* Ter camadas mais finas permite que a impressora produza mais detalhes nos lados superior e inferior da impressão.
+* Ter camadas mais grossas tende a tornar a impressão mais forte, até certo ponto. Haverá menos bordas entre as camadas, que tendem a ser um ponto fraco. As camadas mais grossas não serão tão cortadas.
+* A utilização de camadas mais espessas reduzirá o tempo de impressão, pois o bocal não precisará fazer tantos movimentos horizontais.
 
-Layer height vs. profiles
+Altura da camada vs. perfis
 ----
-Many settings depend on the layer height. Because layer height significantly affects the flow rate of material through the nozzle, many parameters of the printing process will change. This is very complex. For instance, when increasing the layer height, you should probably increase the printing temperature slightly to offset the extra rate of heat loss. The temperature then affects the liquidity of the material which will affect how sharp your corners will be and what cooling is needed, and so on. It is always wise to start from a pre-made quality profile available to your printer that has a layer height close to what you want.
+Muitas configurações dependem da altura da camada. Como a altura da camada afeta significativamente a taxa de fluxo do material através do bocal, muitos parâmetros do processo de impressão serão alterados. Isso é muito complexo. Por exemplo, ao aumentar a altura da camada, você provavelmente deve aumentar um pouco a temperatura de impressão para compensar a taxa extra de perda de calor. A temperatura, então, afeta a liquidez do material, o que afetará a nitidez dos cantos e o resfriamento necessário, e assim por diante. É sempre aconselhável começar com um perfil de qualidade pré-fabricado disponível para sua impressora que tenha uma altura de camada próxima à que você deseja.
 
-You can choose a desired layer height in Custom Mode, but pre-made profiles are available with various layer heights as well. You can choose from profiles for various layer heights in the Recommended Mode using a slider or using the drop-down widget in Custom Mode. Since these profiles also change some parameters that depend on the layer height, you'll probably achieve a better quality that way.
+Você pode escolher uma altura de camada desejada no Modo personalizado, mas os perfis pré-fabricados também estão disponíveis com várias alturas de camada. Você pode escolher entre perfis para várias alturas de camada no Modo recomendado usando um controle deslizante ou usando o widget suspenso no Modo personalizado. Como esses perfis também alteram alguns parâmetros que dependem da altura da camada, você provavelmente obterá uma qualidade melhor dessa forma.
 
-Additional notes
+Observações adicionais
 ----
-At very low layer heights, you could run into the resolution limit of your Z axis. Look up the step size of your printer's Z axis and make sure that the layer height is a multiple of this. If it doesn't match up properly, some layers will be thicker than others which will result in banding.
+Em alturas de camada muito baixas, você pode esbarrar no limite de resolução do eixo Z. Consulte o tamanho do passo do eixo Z de sua impressora e certifique-se de que a altura da camada seja um múltiplo desse valor. Se não corresponder corretamente, algumas camadas serão mais grossas do que outras, o que resultará em faixas.
 
-**Note that the layer height setting does not hold for the initial layer of the print or for the raft layers, which have their own settings to adjust the layer height separately. When using adaptive layers, this layer height setting will be used as a baseline but the actual layer height will have some variation.**
+**Observe que a configuração da altura da camada não é válida para a camada inicial da impressão nem para as camadas de jangada, que têm suas próprias configurações para ajustar a altura da camada separadamente. Ao usar camadas adaptáveis, essa configuração de altura da camada será usada como linha de base, mas a altura real da camada terá alguma variação.**

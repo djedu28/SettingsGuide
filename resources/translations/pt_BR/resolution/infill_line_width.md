@@ -1,6 +1,6 @@
-Infill Line Width
+Largura da linha de preenchimento
 ====
-The width of every line of infill being drawn. The width of a line can be different from the nozzle size simply by extruding more or less material than needed. If more material is extruded, the plastic will flow towards the sides, making the line thicker. If less material is extruded, the surface tension of the material tends to pull the material towards the centre line of the nozzle's path.
+A largura de cada linha de preenchimento sendo desenhada. A largura de uma linha pode ser diferente do tamanho do bocal simplesmente extrudando mais ou menos material do que o necessário. Se mais material for extrudado, o plástico fluirá para os lados, tornando a linha mais grossa. Se menos material for extrudado, a tensão superficial do material tende a puxá-lo em direção à linha central do caminho do bocal.
 
 <!--screenshot {
 "image_path": "infill_line_width.png",
@@ -10,8 +10,8 @@ The width of every line of infill being drawn. The width of a line can be differ
 "layer": 111,
 "colours": 64
 }-->
-![The infill lines are significantly wider than the rest](../images/infill_line_width.png)
+![As linhas de preenchimento são significativamente mais largas que as demais](../images/infill_line_width.png)
 
-Making the infill lines wider can make your print stronger and reduce printing time as well. However, increasing it too much can cause great extrusion fluctuations. This will cause underextrusion when printing the infill and overextrusion when printing whatever comes after infill, because the flow through the nozzle cannot adjust fast enough.
+Aumentar as linhas de preenchimento pode tornar sua impressão mais forte e também reduzir o tempo de impressão. No entanto, aumentá-lo demais pode causar grandes flutuações na extrusão. Isso causará subextrusão ao imprimir o preenchimento e superextrusão ao imprimir o que vier depois do preenchimento, porque o fluxo através do bocal não pode se ajustar rápido o suficiente.
 
-**The actual infill lines may come out wider than what this setting says, if you've adjusted the [Infill Layer Thickness](../infill/infill_sparse_thickness.md) setting.**
+**As linhas de preenchimento reais podem ficar mais largas do que esta configuração indica, se você tiver ajustado a configuração [Espessura da camada de preenchimento](../infill/infill_sparse_thickness.md).**

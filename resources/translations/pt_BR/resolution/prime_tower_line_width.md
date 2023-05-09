@@ -1,6 +1,6 @@
-Prime Tower Line Width
+Largura da linha da torre principal
 ====
-This setting determines the width of the lines with which the prime tower is drawn.
+Essa configuração determina a largura das linhas com as quais a torre principal é desenhada.
 
 <!--screenshot {
 "image_path": "prime_tower_line_width.png",
@@ -21,6 +21,6 @@ This setting determines the width of the lines with which the prime tower is dra
 "colour_scheme": "material_colour",
 "colours": 64
 }-->
-![The blue material has a larger line width than the yellow material](../images/prime_tower_line_width.png)
+![O material azul tem uma largura de linha maior do que o material amarelo](../images/prime_tower_line_width.png)
 
-Choosing a thicker line width causes the prime tower to sometimes print faster. If the volume extruded by one contour is sufficiently big, increasing the line width makes another loop unnecessary. However increasing the line width too much can make the prime tower weaker because not enough material can be extruded fast enough.
+A escolha de uma largura de linha mais grossa faz com que a torre principal seja impressa mais rapidamente. Se o volume extrudado por um contorno for suficientemente grande, o aumento da largura da linha tornará desnecessário outro loop. No entanto, aumentar demais a largura da linha pode enfraquecer a torre principal porque não é possível extrudar material suficiente com rapidez suficiente.

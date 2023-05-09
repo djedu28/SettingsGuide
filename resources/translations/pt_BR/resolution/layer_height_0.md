@@ -1,6 +1,6 @@
-Initial Layer Height
+Altura da camada inicial
 ====
-This setting defines the thickness of the first layer of your print. The initial layer is normally printed thicker than the rest in order to create a stronger adhesion with the build plate. With this setting, the initial layer's thickness can be increased without reducing the resolution of the rest of the print.
+Essa configuração define a espessura da primeira camada de sua impressão. Normalmente, a camada inicial é impressa mais espessa que as demais para criar uma adesão mais forte com a placa de impressão. Com essa configuração, a espessura da camada inicial pode ser aumentada sem reduzir a resolução do restante da impressão.
 
 <!--screenshot {
 "image_path": "layer_height_0.png",
@@ -14,8 +14,9 @@ This setting defines the thickness of the first layer of your print. The initial
 "settings": {"layer_height_0": 0.3},
 "colours": 32
 }-->
-![The initial layer is thicker than the rest of the layers](../images/layer_height_0.png)
+![A camada inicial é mais espessa do que o restante das camadas](../images/layer_height_0.png)
 
-Increasing the initial layer's thickness causes the nozzle to extrude more material over the same distance. This takes extra force, as the material spreads out to the sides to fill the full line width. This extra force causes the material to stick better to the build plate. Additionally, the thicker layer will catch any irregularities in the flatness of the surface. If the build plate is slightly bent, the variability will be absorbed by the thickness of the first layer, whereas otherwise the nozzle could scrape it off in the second layer.
 
-Having too thick of an initial layer causes the first layer to sag more, which causes elephant's feet. The [Initial Layer Horizontal Expansion](../shell/xy_offset_layer_0.md) setting can prevent this by giving it a small negative value.
+O aumento da espessura da camada inicial faz com que o bocal extrude mais material na mesma distância. Isso requer força extra, pois o material se espalha para os lados para preencher toda a largura da linha. Essa força extra faz com que o material adira melhor à placa de construção. Além disso, a camada mais espessa captará quaisquer irregularidades na planicidade da superfície. Se a placa de impressão estiver levemente dobrada, a variabilidade será absorvida pela espessura da primeira camada, ao passo que, de outra forma, o bico poderia raspá-la na segunda camada.
+
+Ter uma camada inicial muito espessa faz com que a primeira camada caia mais, o que causa pés de elefante. A configuração [Expansão horizontal da camada inicial](../shell/xy_offset_layer_0.md) pode evitar isso, fornecendo-lhe um pequeno valor negativo.

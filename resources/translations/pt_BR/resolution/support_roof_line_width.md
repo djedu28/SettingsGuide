@@ -1,6 +1,6 @@
-Support Roof Line Width
+Largura da linha do teto do suporte
 ====
-The widths of the lines of support roof can be configured separately from the widths of the rest of the support lines.
+As larguras das linhas do teto de suporte podem ser configuradas separadamente das larguras do restante das linhas de suporte.
 
 <!--screenshot {
 "image_path": "support_roof_line_width.png",
@@ -19,8 +19,8 @@ The widths of the lines of support roof can be configured separately from the wi
 "layer": 192,
 "colours": 64
 }-->
-![The support roof lines are wider than the rest of the support lines](../images/support_roof_line_width.png)
+![As linhas do teto de suporte são mais largas do que o restante das linhas de suporte](../images/support_roof_line_width.png)
 
-Printing the support roof with slightly thinner lines is often advantageous for the quality of the overhanging surface that it supports, purely through having a smoother top surface above the support interface. Yet it doesn't necessarily increase the adhesion between the support interface and the model, so the support will not necessarily be harder to remove.
+Imprimir o teto de suporte com linhas um pouco mais finas geralmente é vantajoso para a qualidade da superfície suspensa que ele suporta, puramente por ter uma superfície superior mais lisa acima da interface de suporte. No entanto, isso não aumenta necessariamente a adesão entre a interface de suporte e o modelo, de modo que o suporte não será necessariamente mais difícil de remover.
 
-However, printing the roof lines too thin will cause uneven extrusion, which reduces the supporting effect of the roof, causing a worse overhang quality. It may also introduce a great change in the flow rate through the nozzle, causing overextrusion when it starts printing support roof and underextrusion when printing whatever comes after the support roof.
+No entanto, imprimir as linhas do telhado muito finas causará extrusão irregular, o que reduz o efeito de suporte do telhado, causando uma pior qualidade de saliência. Isso também pode introduzir uma grande mudança na taxa de fluxo através do bocal, causando excesso de extrusão quando começar a imprimir o teto de suporte e falta de extrusão quando imprimir o que vier depois do teto de suporte.

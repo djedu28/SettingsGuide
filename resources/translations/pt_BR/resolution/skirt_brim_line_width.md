@@ -1,9 +1,9 @@
-Skirt/Brim Line Width
+Largura da linha da saia/brim
 ====
-This setting configures the width of a single skirt or brim line (whichever is active).
+Essa configuração define a largura de uma única linha de saia ou brim (o que estiver ativo).
 
-When using a brim, a slightly increased line width will improve the adhesion between the brim and the build plate. This is because the nozzle will extrude the material with more force, so that the brim gets pushed harder on to the build plate. The brim does not need to look pretty, so it's useful to have the brim line width as high as can feasibly be printed.
+Ao usar uma borda, uma largura de linha ligeiramente maior melhorará a adesão entre a borda e a placa de construção. Isso ocorre porque o bocal extrudará o material com mais força, de modo que a borda seja empurrada com mais força para a placa de montagem. A borda não precisa ter uma aparência bonita, portanto, é útil ter a largura da linha da borda tão alta quanto for possível imprimir.
 
-For the skirt, increasing the line width causes it to use more material. However it will allow for good priming in a shorter amount of time, so fewer skirt lines are necessary for small objects.
+Para a saia, aumentar a largura da linha faz com que ela use mais material. No entanto, isso permitirá uma boa preparação em um período de tempo mais curto, portanto, menos linhas de saia são necessárias para objetos pequenos.
 
-**The line width of the skirt and brim is also influenced by the [Initial Layer Line Width](initial_layer_line_width_factor.md) setting.**
+**A largura da linha da saia e da borda também é influenciada pela configuração [Largura da Linha da Camada Inicial] (initial_layer_line_width_factor.md).**

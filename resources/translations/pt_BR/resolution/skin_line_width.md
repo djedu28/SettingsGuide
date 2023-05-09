@@ -1,6 +1,6 @@
-Top/Bottom Line Width
+Largura da linha superior/inferior
 ====
-The width of every line of the top and bottom being drawn. The width of a line can be different from the nozzle size simply by extruding more or less material than needed. If more material is extruded, the plastic will flow towards the sides, making the line thicker. If less material is extruded, the surface tension of the material tends to pull the material towards the centre line of the nozzle's path.
+A largura de cada linha da parte superior e inferior que está sendo desenhada. A largura de uma linha pode ser diferente do tamanho do bocal simplesmente pela extrusão de mais ou menos material do que o necessário. Se mais material for extrudado, o plástico fluirá em direção às laterais, tornando a linha mais espessa. Se for extrudado menos material, a tensão superficial do material tende a puxar o material em direção à linha central do caminho do bocal.
 
 <!--screenshot {
 "image_path": "skin_line_width.png",
@@ -15,8 +15,8 @@ The width of every line of the top and bottom being drawn. The width of a line c
 "layer": 300,
 "colours": 64
 }-->
-![The skin lines are significantly wider than the rest](../images/skin_line_width.png)
+![As linhas da pele são significativamente mais largas que as demais](../images/skin_line_width.png)
 
-Making the skin lines wider is an easy way to reduce printing time, because fewer lines will be necessary to print the top and bottom sides of the object. However increasing it too much can cause great extrusion fluctuations. This will cause underextrusion when printing the skin and overextrusion when printing whatever comes next, because the flow through the nozzle cannot adjust fast enough. Increasing the skin line width will also increase the chance of holes to appear in the surface, which is not pretty and prevents it from being water tight.
+Tornar as linhas de pele mais largas é uma maneira fácil de reduzir o tempo de impressão, pois serão necessárias menos linhas para imprimir os lados superior e inferior do objeto. No entanto, aumentá-las demais pode causar grandes flutuações de extrusão. Isso causará subextrusão ao imprimir a pele e superextrusão ao imprimir o que vier em seguida, porque o fluxo através do bocal não pode se ajustar com rapidez suficiente. Aumentar a largura da linha da pele também aumentará a chance de aparecerem buracos na superfície, o que não é bonito e impede que ela seja estanque.
 
-Reducing the width of the skin lines tends to produce a nicer top surface, but at great cost of printing time. It is often more effective to use a different technique such as [Ironing](../top_bottom/ironing_enabled.md) or only adjusting the [Top Surface Skin Lines](../top_bottom/roofing_line_width.md).
+Reduzir a largura das linhas de revestimento tende a produzir uma superfície superior mais bonita, mas com um grande custo de tempo de impressão. Geralmente, é mais eficaz usar uma técnica diferente, como [Passar a ferro](../top_bottom/ironing_enabled.md) ou ajustar apenas as [Linhas de superfície superior](../top_bottom/roofing_line_width.md).
