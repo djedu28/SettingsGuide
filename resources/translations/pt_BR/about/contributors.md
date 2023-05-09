@@ -4,8 +4,8 @@ Colaboradores
 
 Programação
 ----
-Ghostkeeper - Versão 1.1 e posterior](../images/contributors/Ghostkeeper.png)
-Alekseisasin - Versão 1.0](../images/contributors/Alekseisasin.png)
+![Ghostkeeper - Versão 1.1 e posterior](../images/contributors/Ghostkeeper.png)
+![Alekseisasin - Versão 1.0](../images/contributors/Alekseisasin.png)
 
 Artigos
 ----
@@ -21,7 +21,7 @@ Artigos
 Traduções
 ----
 ![Goodfeat - Russo](../images/contributors/Goodfeat.png)
-Laurent Lalliard - Francês](../images/contributors/5axes.png)
+![Laurent Lalliard - Francês](../images/contributors/5axes.png)
 ![Vb138 - tcheco](../images/contributors/Vb138.png)
 ![SekIsBack - alemão](../images/contributors/Sekisback.jpg)
-![DjEdu28 - Português](../images/contributors/DjEdu28.jpg)
+![DjEdu28 - Português](../images/contributors/DjEdu28.png)
