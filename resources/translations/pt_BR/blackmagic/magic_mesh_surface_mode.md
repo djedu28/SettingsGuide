@@ -1,8 +1,8 @@
-Surface Mode
+Modo de superfície
 ====
-Normally, Cura will create cross sections of all the triangles in your mesh. These line segments are stitched together to form loops. Any loops that are not closed will be discarded.
+Normalmente, o Cura criará seções transversais de todos os triângulos da malha. Esses segmentos de linha são unidos para formar loops. Os loops que não estiverem fechados serão descartados.
 
-This setting controls what will be done with these unclosed loops. If set to "Normal", they are discarded. If set to "Surface", all of the cross sections are printed as outlines. If set to "Both", the closed outlines are printed normally but the unclosed ones are printed separately as extra walls.
+Essa configuração controla o que será feito com esses loops não fechados. Se for definido como "Normal", eles serão descartados. Se estiver definida como "Surface", todas as seções transversais serão impressas como contornos. Se definido como "Both", os contornos fechados serão impressos normalmente, mas os não fechados serão impressos separadamente como paredes extras.
 
 <!--screenshot {
 "image_path": "magic_mesh_surface_mode_normal.png",
@@ -31,12 +31,48 @@ This setting controls what will be done with these unclosed loops. If set to "No
 },
 "colours": 32
 }-->
-![Normal mode leaves out the single unclosed surface on the right](../images/magic_mesh_surface_mode_normal.png)
-![Surface mode only prints the surfaces without treating them as closed volumes](../images/magic_mesh_surface_mode_surface.png)
-![Printing both the volumes and the extra unclosed surface on the right](../images/magic_mesh_surface_mode_both.png)
 
-The extra surfaces that get printed will only include the vertical surfaces as single lines. There is no filling technique for horizontal surfaces, since the surfaces are not closed polygons. They cannot be filled since there is no inside. There can be no tops, bottoms, infill or supports. Only single lines.
+![O modo Normal deixa de fora a única superfície não fechada à direita](../images/magic_mesh_surface_mode_normal.png)
+![O modo Surface imprime apenas as superfícies sem tratá-las como volumes fechados](../images/magic_mesh_surface_mode_surface.png)
+Modo de superfície
+====
+Normalmente, o Cura criará seções transversais de todos os triângulos da malha. Esses segmentos de linha são unidos para formar loops. Os loops que não estiverem fechados serão descartados.
 
-The extra surfaces will be printed as if they are outer walls, so they will be affected by the outer wall printing speed, line width, and so on. It will also print these surfaces using a line that is precisely centred on the surface, rather than aligning the line along the inside of the model. That means that it extends with half a line width on either side of the surface. This happens because it is ambiguous which side of the surface is the inside of the model. Your print will not be dimensionally accurate. If, like in the screenshot above, the extra surface is aligned with a normal, solid surface, and you're using the "Both" option to complete any missing walls then the layers will not properly align.
+Essa configuração controla o que será feito com esses loops não fechados. Se for definido como "Normal", eles serão descartados. Se estiver definida como "Surface", todas as seções transversais serão impressas como contornos. Se definido como "Both", os contornos fechados serão impressos normalmente, mas os não fechados serão impressos separadamente como paredes extras.
 
-**If printing both the normal volumes and the extra surfaces, keep in mind that the volumes will be printed with the outer wall completely inside the volume. The extra surfaces are printed with the line centred on the surface, with half of the line's width on either side. If an extra surface is aligned to the surface of a closed volume, as in the pictures above, the surface will be shifted by half a line width. After all, the extra surface has no inside to move towards.**
+<!--screenshot {
+"image_path": "magic_mesh_surface_mode_normal.png",
+"models": [{"script": "extra_surface.py"}],
+"camera_position": [66, 129, 124],
+"settings": {
+    "magic_mesh_surface_mode": "normal"
+},
+"colours": 32
+}-->
+<!--screenshot {
+"image_path": "magic_mesh_surface_mode_surface.png",
+"models": [{"script": "extra_surface.py"}],
+"camera_position": [66, 129, 124],
+"settings": {
+    "magic_mesh_surface_mode": "surface"
+},
+"colours": 32
+}-->
+<!--screenshot {
+"image_path": "magic_mesh_surface_mode_both.png",
+"models": [{"script": "extra_surface.py"}],
+"camera_position": [66, 129, 124],
+"settings": {
+    "magic_mesh_surface_mode": "both"
+},
+"colours": 32
+}-->
+!["O modo Normal deixa de fora a única superfície não fechada à direita](../images/magic_mesh_surface_mode_normal.png)
+![O modo Surface imprime apenas as superfícies sem tratá-las como volumes fechados](../images/magic_mesh_surface_mode_surface.png)
+![Imprimindo os volumes e a superfície extra não fechada à direita](../images/magic_mesh_surface_mode_both.png)
+
+As superfícies extras que são impressas incluirão apenas as superfícies verticais como linhas simples. Não há técnica de preenchimento para superfícies horizontais, pois as superfícies não são polígonos fechados. Elas não podem ser preenchidas, pois não há interior. Não pode haver partes superiores, inferiores, preenchimento ou suportes. Somente linhas simples.
+
+As superfícies extras serão impressas como se fossem paredes externas, portanto, serão afetadas pela velocidade de impressão da parede externa, pela largura da linha e assim por diante. Ele também imprimirá essas superfícies usando uma linha precisamente centralizada na superfície, em vez de alinhar a linha ao longo do interior do modelo. Isso significa que ela se estende com metade da largura da linha em cada lado da superfície. Isso acontece porque é ambíguo qual lado da superfície é o interior do modelo. Sua impressão não será dimensionalmente precisa. Se, como na captura de tela acima, a superfície extra estiver alinhada com uma superfície sólida normal e você estiver usando a opção "Both" (Ambos) para completar as paredes que faltam, as camadas não serão alinhadas corretamente.
+
+**Se estiver imprimindo os volumes normais e as superfícies extras, lembre-se de que os volumes serão impressos com a parede externa completamente dentro do volume. As superfícies extras são impressas com a linha centralizada na superfície, com metade da largura da linha em cada lado. Se uma superfície extra estiver alinhada à superfície de um volume fechado, como nas figuras acima, a superfície será deslocada por meia largura de linha. Afinal de contas, a superfície extra não tem um interior para onde se mover.**
