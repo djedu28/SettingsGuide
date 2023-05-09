@@ -1,11 +1,11 @@
-Connect Infill Polygons
+Conectar polígonos de preenchimento
 ====
-When the infill consists of closed loops, these closed loops can be fused together to form one single loop. Enabling this will make small connections where polygons are adjacent.
+Quando o preenchimento consiste em loops fechados, esses loops fechados podem ser fundidos para formar um único loop. A ativação dessa opção fará pequenas conexões onde os polígonos são adjacentes.
 
-This setting is only available when the infill consists of loops that are adjacent to each other. That means that either:
-* The [infill pattern](infill_pattern.md) is set to Cross or Cross 3D.
-* The infill lines are [multiplied](infill_multiplier.md) to an even number.
-* There are at least 2 [extra walls around the infill](infill_wall_line_count.md).
+Essa configuração só está disponível quando o preenchimento consiste em loops adjacentes uns aos outros. Isso significa que:
+* O [padrão de preenchimento](infill_pattern.md) está definido como Cross ou Cross 3D.
+* As linhas de preenchimento estão [multiplicadas](infill_multiplier.md) em um número par.
+* Há pelo menos 2 [paredes extras ao redor do preenchimento](infill_wall_line_count.md).
 
 <!--screenshot {
 "image_path": "connect_infill_polygons_disabled.png",
@@ -33,9 +33,9 @@ This setting is only available when the infill consists of loops that are adjace
 },
 "colours": 32
 }-->
-![With multiplied infill lines, there are lots of loops in this infill pattern](../images/connect_infill_polygons_disabled.png)
-![Enabling this setting fuses the loops together](../images/connect_infill_polygons_enabled.png)
+![Com linhas de preenchimento multiplicadas, há muitos loops nesse padrão de preenchimento](../images/connect_infill_polygons_disabled.png)
+![A ativação dessa configuração funde os loops](../images/connect_infill_polygons_enabled.png)
 
-The aim of this function is to prevent travel moves. The final line will be one single loop for every connected part of infill, so there will not be any travel moves. This makes it easier to work with flexible filaments, because those are harder to retract and work best if they can keep flowing through the nozzle.
+O objetivo dessa função é evitar movimentos de deslocamento. A linha final será um único loop para cada parte conectada do preenchimento, portanto, não haverá movimentos de deslocamento. Isso facilita o trabalho com filamentos flexíveis, pois eles são mais difíceis de retrair e funcionam melhor se puderem continuar fluindo pelo bocal.
 
-Connecting these loops can also make the infill stronger by enhancing the connection between the loops internally. However, when the polygons are connected the print head often has to make 180 degree turns just before a joint. These turns sometimes prevent the joint from being fully connected. This can also make infill weaker in some cases. It all depends on how the loops mesh out through the shape of your model.
+Conectar esses loops também pode tornar o preenchimento mais forte, aprimorando a conexão entre os loops internamente. No entanto, quando os polígonos são conectados, o cabeçote de impressão geralmente precisa fazer curvas de 180 graus logo antes de uma junção. Essas curvas às vezes impedem que a junção seja totalmente conectada. Isso também pode tornar o preenchimento mais fraco em alguns casos. Tudo depende de como os loops se encaixam na forma de seu modelo.
